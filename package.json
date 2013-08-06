@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-sample-ref",
+  "description": "sample package that references the nodejs-sample repository at https://github.com/sourcegraph/nodejs-sample",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sourcegraph/nodejs-sample-ref"
+  },
+  "version": "0.0.1",
+  "author": {
+    "name": "Quinn Slack",
+    "email": "sqs@sourcegraph.com"
+  },
+  "dependencies": {
+    "nodejs-sample": "git://github.com/sourcegraph/nodejs-sample.git"
+  }
+}
