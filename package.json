@@ -1,9 +1,9 @@
 {
-  "name": "nodejs-sample-ref",
-  "description": "sample package that references the nodejs-sample repository at https://github.com/sourcegraph/nodejs-sample",
+  "name": "nodejs-sample-ref-2",
+  "description": "another sample package that references the nodejs-sample repository at https://github.com/sourcegraph/nodejs-sample",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sourcegraph/nodejs-sample-ref"
+    "url": "https://github.com/sourcegraph/nodejs-sample-ref-2"
   },
   "version": "0.0.1",
   "author": {
@@ -11,6 +11,6 @@
     "email": "sqs@sourcegraph.com"
   },
   "dependencies": {
-    "nodejs-sample": "git://github.com/sourcegraph/nodejs-sample.git"
+    "sourcegraph-nodejs-sample": "git://github.com/sourcegraph/nodejs-sample.git"
   }
 }
